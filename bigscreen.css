@@ -1,0 +1,19 @@
+
+    @media all and (max-width: 480px){
+        .nav-bar{
+           background-color:#9ba4b4;
+           height:60px;
+           color: #f1f6f9;
+        }
+    ul>li{
+        color:white;
+    }
+    img{
+        height: 40px;
+        margin-bottom:5px;
+        border-radius: 50%;
+        margin-top: 8px;
+        margin-left: 15px;
+        
+    }
+    }

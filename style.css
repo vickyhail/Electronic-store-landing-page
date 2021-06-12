@@ -11,14 +11,7 @@ header{
 .nav-bar{
    
     height:60px;
-    background-color:#14274e;
-   
-    
-    
-   
-    color: #f1f6f9;
-    
-   
+    background-color:#14274e; 
 }
 
  .nav-bar ul li{
@@ -52,30 +45,23 @@ font-size: 18px;
     background-color:#9ba4b4;
     height: 70px;
     font-weight: 700px;
-    color: #14274e;
+    color: #e0e2e6;
     border-radius: 5px;
-}
-#home:hover{
-   
-    transform: scale(1.03);
-    transition: all 1s ease;
-}
 }
 
 
 a{
-    text-decoration: none;
-    cursor: pointer;
-    color: whitesmoke;
-}
+    color: white;
+    text-decoration: white;
 
+}
 
 
 
 .imagelogo img{
 
      
-        margin-top: 10px;
+        margin-top: 6px;
         margin-left: 105px;
 }
 
@@ -87,7 +73,7 @@ section>h1{
     position: absolute;
     top: 180px;
     left: 380px;
-    color: #14274e;
+    color:#e94560;
     font-size: 40px;
     font-weight: 900;
     text-transform: uppercase;
@@ -99,7 +85,7 @@ section>h4{
     position: absolute;
     top: 250px;
     left: 548px;
-    color: #f1f6f9;
+    color: #e94560;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 2.5px;
@@ -257,3 +243,26 @@ footer{
     font-size: 12px;
     margin-left: 10px;
 }
+
+
+#home {
+    width: 100px;
+    height: 100px;
+    background-color:#e94560;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color:yellow;}
+    to {background-color:#e94560;}
+  }
+
+
+  li:hover{
+      background-color: #e94560;
+      border-radius: 5px;
+  
+        
+    }
+  
